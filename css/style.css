@@ -11,7 +11,9 @@
 }
 body{
     background-color: var(--background);
-    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1500px;
+    
 }
     .gradient{
         background: rgba(213,55,155,1);
@@ -69,5 +71,33 @@ ul{
     border-radius: 5px;
 }
 .banner .btn{
-    margin-top: 100px;
+    margin-top: 230px;
+}
+.sobre{
+    background-image: url("../img/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    width: 100%;
+    min-height: 350px;
+    margin: 20px 0;
+    color: white;
+    padding: 100px 0;
+}
+.sobre .container{
+    display: flex;
+}
+.sobre img{
+    position: absolute;
+    justify-content: flex-start;
+}
+.sobre .container div{
+    width: 40%;
+}
+.campeã{
+    position: absolute;
+    right: 15%;
+    top: 470px;
+   
 }
