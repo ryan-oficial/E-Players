@@ -34,39 +34,39 @@
        <div class="titulo_pagina">
            <h1>cadastro de jogador</h1>
        </div>
-       <form action="" method="post">
+       <form class="form_cadastro" action="" method="post">
            <div class="campo">
-               <label for="nome">nome do jogador</label>
+               <label for="nome">nome do jogador:</label>
                <input type="text" name="nomedojogador" id="nome">
            </div>
 
            <div class="campo">
-            <label for="nick">nick do jogador</label>
+            <label for="nick">nick do jogador:</label>
             <input type="text" name="nickdojogador" id="nick">
         </div>
 
         <div class="campo">
-            <label for="email">email</label>
+            <label for="email">email:</label>
             <input type="email" name="email" id="email">
         </div>
 
         <div class="campo">
-            <label for="senha">senha</label>
+            <label for="senha">senha:</label>
             <input type="password" name="senha" id="senha">
         </div>
 
         <div class="campo">
-            <label for="senha_confirma">repita a senha</label>
+            <label for="senha_confirma">repita a senha:</label>
             <input type="password" name="senha_confirma" id="senha_confirma">
         </div>
 
         <div class="campo">
-            <label for="nascimento">narcimento</label>
-            <input type="date" name="nascimento" id="nascimento">
+            <label for="nascimento">narcimento:</label>
+            <input type="date" name="nascimento" id="nascimento" max="2020-03-12" min="1900-01-01">
         </div>
 
         <div class="campo">
-            <label for="pais">pais</label>
+            <label for="pais">pais:</label>
             <select name="pais" id="pais">
                 <option value="SO">Selecione uma opçao</option>
                 <option value="Br">Brasil</option>
@@ -90,14 +90,14 @@
             <label for="NA">Prefiro nao dizer</label>
         </fieldset>
 
-        <div class="campo">
+        <div class="campo termos">
             <input type="checkbox" name="check" id="check">
             <label for="check">
                     Declaro que li e aceito os termos de uso deste site.
             </label>
         </div>
 
-
+        <button type="submit" class="btn gradient">Cadastrar</button>
 
        </form>
 
