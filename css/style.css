@@ -331,6 +331,11 @@ fieldset label{
     margin-top: 2em;
     cursor: pointer ;
 }
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+   display: none;
+}
 @media screen and (max-width: 600px){
    .campea{
        right: 0%;
@@ -402,3 +407,36 @@ fieldset label{
 
 }
 /* Fim media max 768px */
+
+@media screen and (max-width: 460px){
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .cabecalho div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 0 2em;
+    }
+    #menu{
+        position: absolute;
+        top: 73px;
+        background: #1a191d;
+        width: 100%;
+        display: none;
+    }
+    .cabecalho ul{
+        flex-direction: column;
+        height: 250px;
+        
+    }
+    .cabecalho ul a{
+        padding: 0.5em 80% 0.5em 0.5em;
+        margin: 0.1em;
+        margin-left: 2em;
+    }
+    .campeã{
+        display: none;
+    }
+}
